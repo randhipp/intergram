@@ -1,15 +1,15 @@
 
 export const defaultConfiguration = {
-    titleClosed: 'Click to chat!',
-    titleOpen: 'Let\'s chat!',
+    titleClosed: 'Chat sekarang!',
+    titleOpen: 'Chat dengan JDigital!',
     closedStyle: 'chat', // button or chat
     closedChatAvatarUrl: '', // only used if closedStyle is set to 'chat'
     cookieExpiration: 1, // in days. Once opened, closed chat title will be shown as button (when closedStyle is set to 'chat')
-    introMessage: 'Hello! How can we help you?',
-    autoResponse: 'Looking for the first available admin (It might take a minute)',
-    autoNoResponse: 'It seems that no one is available to answer right now. Please tell us how we can ' +
-    'contact you, and we will get back to you as soon as we can.',
-    placeholderText: 'Send a message...',
+    introMessage: 'Halo! Ada yang bisa kami bantu?',
+    autoResponse: 'Mohon tunggu sebentar, atau hubungi kami di 0878 5345 6600 untuk kebutuhan penting.',
+    autoNoResponse: 'Mohon maaf sepertinya ada masalah di server, tinggalkan nama dan nomor handphone, ' +
+    'kami akan segera menghubungi anda.',
+    placeholderText: 'kirim pesan...',
     displayMessageTime: true,
     mainColor: '#1f8ceb',
     alwaysUseFloatingButton: false,
